@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +25,7 @@
     <!-- <div class="container"> -->
     <nav class="navbar navbar-expand-lg py-4 navbar-light bg-light">
         <div class="col-4">
-            <a class="navbar-brand font-weight-bold text-primary" id="brand" href="#">Vaccination</a>
+            <a class="navbar-brand font-weight-bold " id="brand" href="#"  style="color:#3656d4;">Vaccination</a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,11 +51,11 @@
         <div class="col-6 bg-light">
             <div class="container">
                 <div class="d-flex justify-content-center align-items-center">
-                    <h2 class="font-weight-bold text-primary">Fight Virus Whith Vaccines</h2>
+                    <h2 class="font-weight-bold" style="color:#1f3e72;">Fight Virus Whith Vaccines</h2>
                 </div>
                 <div class="mt-4 d-flex justify-content-center align-content-center">
                     <div class="row">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consectetur
+                        <p class="lead mr-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consectetur
                             explicabo, dolor facere molestiae inventore nostrum alias</p>
                     </div>
                 </div>
@@ -75,10 +74,12 @@
             </div>
         </div>
         <div class="col-md-6 bg-info d-flex">
-            <img src="assets/mapa.png" alt="" sizes="" srcset="">
+            <img src="assets/MicrosoftTeams-image (3).png" alt="" sizes="" srcset="" class="img-fluid" >
         </div>
     </div>
-<hr class="featurette-divider">
+
+    <hr class="featurette-divider">
+
     <section class="py-6 py-md-8 border-bottom">
         <div class="container">
           <div class="row align-items-center justify-content-center">
@@ -129,18 +130,13 @@
       </section>
 
     <!-- parte 2 marcas-->
-    <div> <img src="" alt=""> </div>
-    <div> <img src="" alt=""> </div>
-    <div> <img src="" alt=""> </div>
-    <div> <img src="" alt=""> </div>
-
 
     <hr class="featurette-divider">
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <!-- parte 3 -->
         <div>
-            <h2>Why should l vaccine ?</h2>
+            <h2 style="color:#1f3e72;">Why should l vaccine ?</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, error? Quaerat corrupti
                 consectetur numquam, dolores illo fugit adipisci unde rerum natus repellat, architecto
                 quidem repellendus asperiores molestias, voluptates quae quos!</p>
@@ -197,54 +193,103 @@
     <hr class="featurette-divider">
 
     <div>
-        <!-- parte 4 -->
-        <div>
-            <div>
-                <h3>Preparations Befor Vaccine</h3>
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus non distinctio
-                    natus commodi hic accusantium nesciunt excepturi, delectus earum at iusto quo fugiat veniam
-                    voluptate iste aut quod esse repellat?
+        <div class="row justify-content-center">
+            <div class="container col-md-5"><img class="img-fluid" src="assets/MicrosoftTeams-image.png" alt=""></div><!-- IMG fila 1  -->
+            <div class="container col-md-7"> <!-- text fila 1  -->
+                <h2 class="font-weight-bold  m-5" style="color:#1f3e72;">Preparation Befor Vaccine</h3>
+                <p class="lead m-5  ">the success of vaccines is strongly influenced by the strength of body's immune system.
+                    Therefore , there are several things that can be tried to make the COVID-19 vaccine work:
                 </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 mx-auto">
+                            <!-- Accordion -->
+                            <div id="accordionExample" class="accordion shadow">
+                
+                                <!-- Accordion item 1 -->
+                                <div class="card">
+                                    <div id="headingOne" class="card-header bg-white shadow-sm border border-0">
+                                        
+                                        <h2 class="mb-0">
+                                            <i class="bi bi-shield-fill-x card-img-top  mb-3 " style=" color: #2848c6; background-color:#f1f5ff"></i>
+                                            <button type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="btn btn-link text-dark font-weight-bold collapsible-link">Avoid alcholic beverages <i class="bi bi-caret-down-fill" style=" color: #3252d0; background-color:#f1f5ff;"></i></button>
+                                            
+                                        </h2>
+                                    </div>
+                                    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
+                                        <div class="card-body p-5">
+                                            <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. </p>
+                                        </div>
+                                    </div>
+                                </div><!-- End -->
+                
+                                <!-- Accordion item 2 -->
+                                <div class="card">
+                                    <div id="headingTwo" class="card-header bg-white shadow-sm border border-0">
+                                        <h2 class="mb-0">
+                                            <i class="bi bi-file-x-fill card-img-top fa-3x mb-3 " style="font-size: 2rem; color: #2848c6; background-color:#f1f5ff"></i>
+                                            <button type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="btn btn-link collapsed text-dark font-weight-bold text-uppercase collapsible-link">Avoid stress <i class="bi bi-caret-down-fill" style=" color: #3252d0; background-color:#f1f5ff;"></i></button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+                                        <div class="card-body p-5">
+                                            <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- End -->
+                
+                                <!-- Accordion item 3 -->
+                                <div class="card">
+                                    <div id="headingThree" class="card-header bg-white shadow-sm border border-0">
+                                        <h2 class="mb-0">
+                                            <i class="bi bi-clipboard-data-fill card-img-top fa-3x mb-3 " style="font-size: 2rem; color: #2848c6; background-color:#f1f5ff"></i>
+                                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-dark font-weight-bold text-uppercase collapsible-link">Eat healthy food<i class="bi bi-caret-down-fill" style=" color: #3252d0; background-color:#f1f5ff;"></i></button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+                                        <div class="card-body p-5">
+                                            <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- End -->
+            
+                                <!-- Accordion item 4 -->
+                                <div class="card">
+                                    <div id="headingThree" class="card-header bg-white shadow-sm border border-0">
+                                        <h2 class="mb-0">
+                                            <i class="bi bi-file-check-fill card-img-top fa-3x mb-3 " style="font-size: 2rem; color: #2848c6; background-color:#f1f5ff"></i>
+                                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-dark font-weight-bold text-uppercase collapsible-link">Get enough sleep<i class="bi bi-caret-down-fill" style=" color: #3252d0; background-color:#f1f5ff;"></i></button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+                                        <div class="card-body p-5">
+                                            <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- End -->
+            
+                                <!-- Accordion item 5 -->
+                                <div class="card">
+                                    <div id="headingThree" class="card-header bg-white shadow-sm border border-0">
+                                        <h2 class="mb-0">
+                                            <i class="bi bi-toggles card-img-top fa-3x mb-3 " style="font-size: 2rem; color: #2848c6; background-color:#f1f5ff"></i>
+                                            <button type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-link collapsed text-dark font-weight-bold text-uppercase collapsible-link">Exercise or physical activity<i class="bi bi-caret-down-fill" style=" color: #3252d0; background-color:#f1f5ff;"></i></button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+                                        <div class="card-body p-5">
+                                            <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- End -->
+                
+                            </div><!-- End -->
+                        </div>
+                    </div>
+                </div>
+            
             </div>
-        </div>
-        <div>
-            <div>
-                <i class=" fa-shield"></i>
-                <label for="mesaje"></label>
-                <p name="mesaje">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium illo
-                    voluptatibus
-                    earum possimus</p>
-            </div>
-            <div>
-                <i class="fa-regular fa-shield"></i>
-                <label for="mesaje"></label>
-                <p name="mesaje">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium illo
-                    voluptatibus
-                    earum possimus</p>
-            </div>
-            <div>
-                <i class="fa-regular fa-shield"></i>
-                <label for="mesaje"></label>
-                <p name="mesaje">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium illo
-                    voluptatibus
-                    earum possimus</p>
-            </div>
-            <div>
-                <i class="fa-regular fa-shield"></i>
-                <label for="mesaje"></label>
-                <p name="mesaje">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium illo
-                    voluptatibus
-                    earum possimus</p>
-            </div>
-            <div>
-                <i class="fa-regular fa-shield"></i>
-                <label for="mesaje"></label>
-                <p name="mesaje">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium illo
-                    voluptatibus
-                    earum possimus</p>
-            </div>
+            
         </div>
     </div>
 
@@ -253,12 +298,12 @@
     <div>
         <div class="row justify-content-center">
             <div class="container col-md-7"> <!-- text fila 1  -->
-                <h2 class="font-weight-bold text-primary">Emergency Contact</h3>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                <h2 class="font-weight-bold m-5 " style="color:#1f3e72;">Emergency Contact</h3>
+                    <p class="lead m-5  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
                         quidem, vero eos, reprehenderit dolore labore.</p>
-                        <div class="row justify-content-center col-md-7">
-                            <div class="row container row-cols-1 row-cols-md-4 mb-3 text-center">
-                                <div class="card mb-4 rounded-3 shadow-sm col-md-6"> <!-- fila gral 2 fila interna 1 tarjeta 1  -->
+                        <div class="row justify-content-center  ">
+                            <div class="row container row-cols-1 row-cols-md-4 mb-3 text-center ">
+                                <div class="card mb-4 rounded-3 shadow-sm col-md-6 border border-0"> <!-- fila gral 2 fila interna 1 tarjeta 1  -->
                                     <div class="container justify-content-start"><i class="bi bi-envelope-fill card-img-top fa-3x"
                                             style="font-size: 2rem; color: #2c4cca; background-color:#f1f5ff"></i>
                                     </div>
@@ -269,7 +314,7 @@
                                     <div><a class="row nav-link active  font-weight-bold" style="font-size: 1.5rem; color: #2c4cca; background-color:#f1f5ff;">Video Call Now</a></div>
                         
                                 </div>
-                                <div class="card mb-4 rounded-3 shadow-sm col-md-6"><!-- fila gral 2 fila interna 1 tarjeta 2  -->
+                                <div class="card mb-4 rounded-3 shadow-sm col-md-6 border border-0"><!-- fila gral 2 fila interna 1 tarjeta 2  -->
                                     <div class="container justify-content-start"><i class="bi bi-envelope-fill card-img-top fa-3x"
                                             style="font-size: 2rem; color: #2c4cca; background-color:#f1f5ff"></i>
                                     </div>
@@ -281,7 +326,7 @@
                                 </div>
                             </div>
                             <div class="row  container row-cols-1 row-cols-md-4 mb-3 text-center">
-                                <div class="card mb-4 rounded-3 shadow-sm col-md-6"><!-- fila gral 2 fila interna 2 tarjeta 1  -->
+                                <div class="card mb-4 rounded-3 shadow-sm col-md-6 border border-0"><!-- fila gral 2 fila interna 2 tarjeta 1  -->
                                     <div class="container justify-content-start"><i class="bi bi-envelope-fill card-img-top fa-3x"
                                             style="font-size: 2rem; color: #2c4cca; background-color:#f1f5ff"></i>
                                     </div>
@@ -291,7 +336,7 @@
                                     </div>
                                     <div><a class="row nav-link active  font-weight-bold" style="font-size: 1.5rem; color: #2c4cca; background-color:#f1f5ff;">Video Call Now</a></div>
                                 </div>
-                                <div class="card mb-4 rounded-3 shadow-sm col-md-6"><!-- fila gral 2 fila interna 2 tarjeta 2  -->
+                                <div class="card mb-4 rounded-3 shadow-sm col-md-6 border border-0"><!-- fila gral 2 fila interna 2 tarjeta 2  -->
                                     <div class="container justify-content-start"><i class="bi bi-envelope-fill card-img-top fa-3x"
                                             style="font-size: 2rem; color: #2c4cca; background-color:#f1f5ff"></i>
                                     </div>
